@@ -1,6 +1,6 @@
 # Bug Report and Pull Requests to solve it.
 
-Open a issue on this project: `url issue project here`
+Open a issue on this project: https://github.com/edipofederle/opla-tool-issues
 
 
 Template:
