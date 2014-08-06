@@ -3,7 +3,7 @@
 - https://github.com/edipofederle/architecture-representation/tree/working (Architecture Representation) - usa maven
 - https://github.com/edipofederle/OPLA-Tool (GUI) - usavem maven
 - https://github.com/edipofederle/OPLA-Patterns (OPLA-Patterns) - não usa maven (owner: Giovani Guizzo)
-- https://github.com/edipofederle/OPLA-algorithms (OPLA-Core) - usa maven
+- https://github.com/edipofederle/opla-core (OPLA-Core) - usa maven
 
 ## Build With Maven
 
@@ -11,7 +11,7 @@
 
 `mvn clean && mvn install`
 
-`mvn install:install-file -Dfile=target/opla-tool-0.0.1.jar -DgroupId=ufpr.br -DartifactId=opla-tool -Dversion=0.0.1 -Dpackaging=jar`
+`> mvn install:install-file -Dfile=target/architecture-representation-0.0.1.jar -DgroupId=opla -DartifactId=architecture-representation -Dversion=0.0.1 -Dpackaging=jar`
 
 ### Using has maven dependency (pom.xml):
 
@@ -31,12 +31,12 @@ Use Netbeans to build and generate JAR file.
 
 ### OPLA-Core
 `mvn clean && mvn install`
-`mvn install:install-file -Dfile=target/OPLA-core-0.0.1.jar -DgroupId=ufpr.br -DartifactId=opla-core -Dversion=0.1 -Dpackaging=jar`
+`> mvn install:install-file -Dfile=target/opla-core-0.0.1.jar -DgroupId=opla -DartifactId=opla-core -Dversion=0.0.1 -Dpackaging=jar`
 
 ### Using has maven dependency (pom.xml):
 
 	<dependency>
-		<groupId>ufpr.br</groupId>
+		<groupId>opla</groupId>
 		<artifactId>opla-core</artifactId>
 		<version>0.0.1</version>
 	</dependency>

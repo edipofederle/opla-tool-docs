@@ -23,7 +23,7 @@ A OPLA-Tool está dividada em quatro projetos diferentes.
 
 * https://github.com/edipofederle/OPLA-Patterns (OPLA-Patterns) - não usa Maven (owner: Giovani Guizzo)
 
-* https://github.com/edipofederle/OPLA-algorithms (OPLA-Core) - usa Maven
+* https://github.com/edipofederle/opla-core - usa Maven
 
 * https://github.com/edipofederle/OPLA-Tool (GUI) - usa Maven.
 
@@ -40,7 +40,7 @@ Agora faça o checkout dos projetos acima citados, para isso:
 
 `> git clone https://github.com/edipofederle/OPLA-Patterns`
 
-`> git clone https://github.com/edipofederle/OPLA-algorithms`
+`> git clone https://github.com/edipofederle/OPLA-core`
 
 `> git clone https://github.com/edipofederle/OPLA-Tool`
 
@@ -61,7 +61,7 @@ Edite o arquivo **config/application.yaml** e em *directoryToExportModels* apont
 
 *Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:*
 
-`> mvn install:install-file -Dfile=target/opla-tool-0.0.1.jar -DgroupId=ufpr.br -DartifactId=opla-tool -Dversion=0.0.1 -Dpackaging=jar`
+`> mvn install:install-file -Dfile=target/architecture-representation-0.0.1.jar -DgroupId=opla -DartifactId=architecture-representation -Dversion=0.0.1 -Dpackaging=jar`
 
 ### OPLA-Patterns
 
@@ -71,17 +71,17 @@ Esse projeto não usa maven logo é preciso gerar o JAR via IDE (NetBeans no cas
 
 *Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:*
 
-`> mvn install:install-file -Dfile=OPLA-Patterns.jar -DgroupId=ufpr.br -DartifactId=opla-patterns -Dversion=0.0.1 -Dpackaging=jar`
+`> mvn install:install-file -Dfile=OPLA-Patterns.jar -DgroupId=opla -DartifactId=opla-patterns -Dversion=0.0.1 -Dpackaging=jar`
 
-### OPLA-algorithms
+### opla-core
 
-`> cd opla-algorithms`
+`> cd opla-core`
 
 `> mvn clean && mvn install`
 
 *Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:*
 
-`> mvn install:install-file -Dfile=target/OPLA-core-0.0.1.jar -DgroupId=ufpr.br -DartifactId=opla-core -Dversion=0.1 -Dpackaging=jar`
+`> mvn install:install-file -Dfile=target/opla-core-0.0.1.jar -DgroupId=opla -DartifactId=opla-core -Dversion=0.0.1 -Dpackaging=jar`
 
 ### OPLA-Tool
 
@@ -90,5 +90,3 @@ Por fim podemos dar build para obter a OPLA-Tool.
 `> cd OPLA-Tool`
 
 `> mvn clean && mvn install`
-
-
