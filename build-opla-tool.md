@@ -48,7 +48,7 @@ Edite o arquivo **config/application.yaml** e em *directoryToExportModels* apont
 
 `> mvn clean && mvn install`
 
-Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:
+**Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:**
 
 `> mvn install:install-file -Dfile=target/opla-tool-0.0.1.jar -DgroupId=ufpr.br -DartifactId=opla-tool -Dversion=0.0.1 -Dpackaging=jar`
 
@@ -58,12 +58,18 @@ Esse projeto não usa maven logo é preciso gerar o JAR via IDE (NetBeans no cas
 
 `> curl -O https://dl.dropboxusercontent.com/u/6730822/bins/OPLA-Patterns.jar`
 
+**Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:**
+
 `> mvn install:install-file -Dfile=OPLA-Patterns.jar -DgroupId=ufpr.br -DartifactId=opla-patterns -Dversion=0.0.1 -Dpackaging=jar`
 
 ### OPLA-algorithms
 
 `> cd opla-algorithms`
+
 `> mvn clean && mvn install`
+
+**Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:**
+
 `> mvn install:install-file -Dfile=target/OPLA-core-0.0.1.jar -DgroupId=ufpr.br -DartifactId=opla-core -Dversion=0.1 -Dpackaging=jar`
 
 ### OPLA-Tool
