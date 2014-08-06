@@ -68,10 +68,10 @@ URL: https://github.com/edipofederle/architecture-representation/tree/working
 [^1]: O projeto é estrtuturado com o Maven, logo é preciso importar o mesmo da forma aqui descrita. Caso importado da forma
 tradicional o mesmo irá ficar "bagunçado". 
 
-[^2]: A branch a ser usado é a working.
+[^2]: A branch a ser usado é a working. Não se esqueça de fazer checkout para essa branch
 
-[^3]: Usuários Windows favor abrir o arquivo buildDeps.sh e executar os comandos correspondentes em seu SO.
+[^3]: Usuários Windows favor abrir o arquivo buildDeps.sh e executar os comandos correspondentes em seu SO. (Requer Maven instalado)
 
 [^4]: Esse passo é necessário pois algumas bibliotecas não foram encontradas em repositórios mavem.
 
-[^5]: Lembre-se de alterar o path do application.yaml directoryToExportModels para um path do seu computador.(path absoluto)
+[^5]: Lembre-se de alterar o path do application.yaml directoryToExportModels para um path do seu computador. (path absoluto)
