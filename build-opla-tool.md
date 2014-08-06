@@ -4,7 +4,7 @@
 <hr/>
 
 Este documento tem como objetivo demostrar os passos necessário para realizar o build da ferramenta OPLA-Tool. Os passos aqui descritos são para sistema *nix.
-Esse documento foi válido em dois sistemas operacionais: Max OSX e Linux (distribuição Fedora).
+Esse documento foi validado em dois sistemas operacionais: Max OSX e Linux (distribuição Fedora).
 
 A OPLA-Tool está dividada em quatro projetos diferentes.
 
