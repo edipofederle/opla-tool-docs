@@ -20,6 +20,7 @@ A OPLA-Tool está dividada em quatro projetos diferentes.
 Primeiramente crie um diretório comum para fazer checkout dos projetos. Aqui será usado o diretórios chamado **codes**.
 
 `> mkdir codes`
+
 `> cd codes`
 
 Agora faça o checkout dos projetos acima citados, para isso:
@@ -56,6 +57,7 @@ Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no reposit
 Esse projeto não usa maven logo é preciso gerar o JAR via IDE (NetBeans no caso). Para facilitar mantenho o JAR deste projeto no seguinte link: https://dl.dropboxusercontent.com/u/6730822/bins/OPLA-Patterns.jar.
 
 `> curl -O https://dl.dropboxusercontent.com/u/6730822/bins/OPLA-Patterns.jar`
+
 `> mvn install:install-file -Dfile=OPLA-Patterns.jar -DgroupId=ufpr.br -DartifactId=opla-patterns -Dversion=0.0.1 -Dpackaging=jar`
 
 ### OPLA-algorithms
