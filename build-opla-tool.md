@@ -3,8 +3,19 @@
 
 <hr/>
 
+### Requisitos
+Para seguir esses passos você precisa:
+
+* JDK 6 >
+
+* GIT - http://git-scm.com
+
+* Maven - http://maven.apache.org
+
+### Sobre
+
 Este documento tem como objetivo demostrar os passos necessário para realizar o build da ferramenta OPLA-Tool. Os passos aqui descritos são para sistema *nix.
-Esse documento foi validado em dois sistemas operacionais: Mac OSX e Linux (distribuição Fedora).
+Esse documento foi validado em dois sistemas operacionais: Mac OSX e Linux (distribuição Fedora). É possível seguir esse documento em sistemas Windows com pequenas mudanças.
 
 A OPLA-Tool está dividada em quatro projetos diferentes.
 
