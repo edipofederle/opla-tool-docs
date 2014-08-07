@@ -14,8 +14,9 @@ Para seguir esses passos você precisa:
 
 ### Sobre
 
-Este documento tem como objetivo demostrar os passos necessário para realizar o build da ferramenta OPLA-Tool. Os passos aqui descritos são para sistema *nix.
-Esse documento foi validado em dois sistemas operacionais: Mac OSX e Linux (distribuição Fedora). É possível seguir esse documento em sistemas Windows com pequenas mudanças.
+Este documento tem como objetivo demostrar os passos necessário para realizar o build da ferramenta OPLA-Tool. Os passos aqui descritos são para sistema *nix. Esse documento foi validado em dois sistemas operacionais: Mac OSX e Linux (distribuição Fedora). É possível seguir esse documento em sistemas Windows com pequenas mudanças.
+
+**NOTA:** Os passos aqui descrito estão disponíveis atráves de um script na pasta *scripts*. Você pode executar ele caso esteja em ambientes *unix. Se tiver algum problema ou precisa algo customizado use o meio manual.
 
 A OPLA-Tool está dividada em quatro projetos diferentes.
 
@@ -62,34 +63,6 @@ Edite o arquivo **config/application.yaml** e em *directoryToExportModels* apont
 `> mvn clean && mvn install`
 
 *Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 `> mvn install:install-file -Dfile=target/architecture-representation-0.0.1.jar -DgroupId=opla -DartifactId=architecture-representation -Dversion=0.0.1 -Dpackaging=jar`
 
