@@ -36,7 +36,7 @@ Primeiramente crie um diretório comum para fazer checkout dos projetos. Aqui se
 
 Agora faça o checkout dos projetos acima citados, para isso:
 
-`> git clone https://github.com/edipofederle/architecture-representation/tree/working `
+`> git clone git@github.com:edipofederle/architecture-representation.git`
 
 `> git clone https://github.com/edipofederle/OPLA-Patterns`
 
@@ -53,6 +53,8 @@ Feito isso começar o processo de build em cada um deles.
 
 Edite o arquivo **config/application.yaml** e em *directoryToExportModels* aponte para um diretório local. (path deve ser absoluto).
 
+`> git chcekout working`
+
 `> sudo chmod +X buildDeps.sh && sudo chmod 777 buildDeps.sh`
 
 `> ./buildDeps.sh`
@@ -60,6 +62,34 @@ Edite o arquivo **config/application.yaml** e em *directoryToExportModels* apont
 `> mvn clean && mvn install`
 
 *Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 `> mvn install:install-file -Dfile=target/architecture-representation-0.0.1.jar -DgroupId=opla -DartifactId=architecture-representation -Dversion=0.0.1 -Dpackaging=jar`
 
