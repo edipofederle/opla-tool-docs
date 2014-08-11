@@ -90,6 +90,9 @@ Esse projeto não usa maven logo é preciso gerar o JAR via IDE (NetBeans no cas
 
 Por fim podemos dar build para obter a OPLA-Tool.
 
+`curl -O https://dl.dropboxusercontent.com/u/6730822/bins/loglog-0.0.1-SNAPSHOT.jar`
+`mvn install:install-file -Dfile=oglog-0.0.1-SNAPSHOT.jar -DgroupId=logs -DartifactId=loglog-0.0.1 -Dversion=0.0.1 -Dpackaging=jar`
+
 `> cd OPLA-Tool`
 
 `> mvn clean && mvn install`
