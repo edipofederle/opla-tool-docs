@@ -72,7 +72,7 @@ echo '=========================================================='
 echo ''
 echo 'Bulding OPLA-Tool'
 cd ../OPLA-Tool
-curl -O https://dl.dropboxusercontent.com/u/6730822/bins/loglog-0.0.1-SNAPSHOT.jar
+curl -O https://dl.dropboxusercontent.com/u/6730822/loglog-0.0.1-SNAPSHOT.jar
 mvn install:install-file -Dfile=loglog-0.0.1-SNAPSHOT.jar -DgroupId=logs -DartifactId=loglog-0.0.1 -Dversion=0.0.1 -Dpackaging=jar
 rm loglog-0.0.1-SNAPSHOT.jar
 mvn clean && mvn install
