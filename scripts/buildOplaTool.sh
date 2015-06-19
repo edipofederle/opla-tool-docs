@@ -54,7 +54,7 @@ echo '=========================================================='
 echo ' '
 
 echo 'Configure OPLA Patterns'
-curl -O https://dl.dropboxusercontent.com/u/6730822/bins/OPLA-Patterns.jar
+curl -O https://dl.dropboxusercontent.com/u/6730822/OPLA-Patterns.jar
 mvn install:install-file -Dfile=OPLA-Patterns.jar -DgroupId=opla -DartifactId=opla-patterns -Dversion=0.0.1 -Dpackaging=jar
 rm OPLA-Patterns.jar
 echo '=========================================================='
