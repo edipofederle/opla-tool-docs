@@ -70,7 +70,7 @@ Edite o arquivo **config/application.yaml** e em *directoryToExportModels* apont
 
 Esse projeto não usa maven logo é preciso gerar o JAR via IDE (NetBeans no caso). Para facilitar mantenho o JAR deste projeto no seguinte link: https://dl.dropboxusercontent.com/u/6730822/bins/OPLA-Patterns.jar.
 
-`> curl -O https://dl.dropboxusercontent.com/u/6730822/bins/OPLA-Patterns.jar`
+`> curl -O https://dl.dropboxusercontent.com/u/6730822/OPLA-Patterns.jar`
 
 *Como esse projeto é dependência da OPLA-GUI precisamos instalar ele no repositório Maven local, para isso execute:*
 
