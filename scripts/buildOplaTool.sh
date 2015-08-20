@@ -18,7 +18,6 @@ echo ''
 echo 'Configure Architecture Representation....'
 echo '=========================================================='
 cd architecture-representation
-git checkout working
 chmod +x ./buildDeps.sh
 ./buildDeps.sh  
 
