@@ -64,7 +64,7 @@ URL: https://github.com/edipofederle/architecture-representation/
     
   
   
-[^1]: O projeto é estrtuturado com o Maven, logo é preciso importar o mesmo da forma aqui descrita. Caso importado da forma
+[^1]: O projeto é estruturado com o Maven, logo é preciso importar o mesmo da forma aqui descrita. Caso importado da forma
 tradicional o mesmo irá ficar "bagunçado". 
 
 [^2]: A branch a ser usado é a working. Não se esqueça de fazer checkout para essa branch
