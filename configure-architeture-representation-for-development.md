@@ -1,6 +1,6 @@
 # Configure Architecture Representation for development
 
-URL: https://github.com/edipofederle/architecture-representation/tree/working
+URL: https://github.com/edipofederle/architecture-representation/
 
 # Passos para configurar o projeto
 
@@ -16,7 +16,6 @@ URL: https://github.com/edipofederle/architecture-representation/tree/working
 
  - Clonar o repositório git:
  - [Terminal]: git clone git@github.com:edipofederle/architecture-representation.git
- - [Terminal]: git checkout working (atual branch atualizada)
 
 ### Importar projeto no Eclipse[^1]
 
